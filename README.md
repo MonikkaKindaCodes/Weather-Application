@@ -1,9 +1,3 @@
-<style> 
-  img {
-    height: 500px;
-    width: 300px;
-  }
-</style>
 # Feels Like Weather-Application
 "Feels Like" Weather Application, highlighting feels like weather, location and weather description. Used the OpenWeather API.
 Gives a more accurate reading of what to wear outside.
