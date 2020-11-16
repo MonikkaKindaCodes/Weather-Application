@@ -5,4 +5,4 @@ Was able to test and make sure this application working in different parts of th
 
 
 
-<img src=" " alt=" ">
+<img src="Weather App Test.jpg" alt="Weather App Test">
