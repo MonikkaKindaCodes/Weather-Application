@@ -6,4 +6,4 @@ Was able to test and make sure this application working in different parts of th
 
 
 
-<img src="Weather App Test.jpg" alt="Weather App Test">
+<img src="Weather App Test.jpg" alt="Weather App Test" style="height: 500px; width: 300px;">
