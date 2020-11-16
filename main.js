@@ -2,6 +2,7 @@ let loc = document.getElementById('location-timezone');
 let temp = document.getElementById('temperature-degree');
 let desc = document.getElementById('temperature-description');
 let tempIcon = document.getElementById('icon');
+let clock = document.getElementById('time');
 window.addEventListener('load', ()=> {
     let long;
     let lat;
@@ -46,3 +47,31 @@ window.addEventListener('load', ()=> {
     }
   
 });
+
+//Showing Time
+function showTime() {
+    let today = new Date(), 
+        hour = today.getHours(),
+        minutes = today.getMinutes(),
+        seconds = today.getSeconds();
+
+    //Set AM / PM
+    const amPm = hour >= 12 ? 'PM' : 'AM';
+
+    //12hr Format
+    hour = hour % 12 || 12;
+
+    //Output Time
+    time.innerHTML = `${hour}<span>:</span>${addZero(minutes)}<span>:</span>${addZero(seconds)} ${amPm}`;
+
+    setTimeout(showTime, 1000);
+}
+
+//Adding 0 function
+
+function addZero(n) {
+   return(parseInt(n, 10) < 10 ? '0' : '') + n; 
+}
+
+//Run
+showTime();
