@@ -21,24 +21,24 @@ window.addEventListener('load', ()=> {
                         const {feels_like} = data.main;
                         const {id, main} = data.weather[0];
                         loc.textContent = name;
-                        temp.textContent = feels_like;
+                        temp.textContent = Math.round((((feels_like - 273.15) * 9) / 5) + 32);
                         desc.textContent = main;
                         if(id < 250) {
-                            tempIcon.src = 'thunderstorms.svg';
+                            tempIcon.src = 'thunderstorms.svg'
                         } else if (id < 350) {
-                            tempIcon.src = 'drizzle.svg';
+                            tempIcon.src = 'drizzle.svg'
                         } else if (id < 600) {
-                            tempIcon.src = 'rain.svg';
+                            tempIcon.src = 'rain.svg'
                         } else if (id < 700) {
-                            tempIcon.src = 'snow.svg';
+                            tempIcon.src = 'snow.svg'
                         } else if(id > 700 && id < 800) {
-                            tempIcon.src = 'snow.svg';
+                            tempIcon.src = 'snow.svg'
                         } else if(id === 800) {
-                            tempIcon.src = 'clear-day.svg';
+                            tempIcon.src = 'clear-day.svg'
                         } else if(id > 800 && id < 803) {
-                            tempIcon.src = 'partly-cloudy-day.svg';
+                            tempIcon.src = 'partly-cloudy-day.svg'
                         } else {
-                            tempIcon.src = 'cloudy.svg';
+                            tempIcon.src = 'cloudy.svg'
                         }
                         console.log(data);  
                     });
