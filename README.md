@@ -4,4 +4,4 @@
 Was able to test and make sure this application working in different parts of the country. Here's a test from Merrydale, Louisiana
 
 
-file:///C:/Users/medgeston/Downloads/received_676634099910699.webp
+
