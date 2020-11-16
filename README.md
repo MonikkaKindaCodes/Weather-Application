@@ -1,4 +1,10 @@
-# Weather-Application
+<style> 
+  img {
+    height: 500px;
+    width: 300px;
+  }
+</style>
+# Feels Like Weather-Application
 "Feels Like" Weather Application, highlighting feels like weather, location and weather description. Used the OpenWeather API.
 Gives a more accurate reading of what to wear outside.
 
@@ -6,4 +12,4 @@ Was able to test and make sure this application working in different parts of th
 
 
 
-<img src="Weather App Test.jpg" alt="Weather App Test" style="height: 500px; width: 300px;">
+<img src="Weather App Test.jpg" alt="Weather App Test">
