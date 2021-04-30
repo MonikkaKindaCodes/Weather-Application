@@ -3,6 +3,7 @@ let temp = document.getElementById('temperature-degree');
 let desc = document.getElementById('temperature-description');
 let tempIcon = document.getElementById('icon');
 let clock = document.getElementById('time');
+alert('Please Enable Location Services Before Continuing.');
 window.addEventListener('load', ()=> {
     let long;
     let lat;
