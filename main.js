@@ -3,6 +3,9 @@ let temp = document.getElementById('temperature-degree');
 let desc = document.getElementById('temperature-description');
 let tempIcon = document.getElementById('icon');
 let clock = document.getElementById('time');
+
+alert = "Please enable location services before starting application."
+
 window.addEventListener('load', ()=> {
     let long;
     let lat;
