@@ -50,3 +50,10 @@ body {
 #time{ 
     font-size: 20px;
 }
+
+@media (max-width: 700px) {
+  #icon {
+    height: 100px;
+    width: 100px;
+  }
+}
