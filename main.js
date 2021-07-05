@@ -4,7 +4,7 @@ let desc = document.getElementById('temperature-description');
 let tempIcon = document.getElementById('icon');
 let clock = document.getElementById('time');
 
-alert = "Please enable location services before starting application."
+alert = "Please go to https://cors-anywhere.herokuapp.com/corsdemo and Press the 'Request temporary access to demo server' Before using application."
 
 window.addEventListener('load', ()=> {
     let long;
